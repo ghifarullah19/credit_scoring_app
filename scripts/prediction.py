@@ -1,7 +1,7 @@
 import joblib
 
-model = joblib.load('../models/gboost_model.joblib')
-result_target = joblib.load('../models/encoder_target.joblib')
+model = joblib.load('models/gboost_model.joblib')
+result_target = joblib.load('models/encoder_target.joblib')
 
 def prediction(data):
     '''Making prediction
